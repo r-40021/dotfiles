@@ -1,0 +1,8 @@
+[user]
+	name = Frog
+	email = 75155258+r-40021@users.noreply.github.com
+	signingkey = 0A8DC3A51528DFA5
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
