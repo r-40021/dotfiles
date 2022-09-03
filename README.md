@@ -31,7 +31,12 @@ sh deploy.sh
 `packages/pkglist.txt` にpacmanでインストールしたパッケージの一覧が記載されています。
 
 # 他にやっておいたほうが良いこと
-そのうちこれらも自動化したいですが、現時点では手動で行う必要があります。
+- Gitの各種設定
+```bash
+git config --global user.name YOUR_NAME
+git config --global user.email YOUR_EMAIL
+```
 
-
-
+- GPG鍵の発行・登録  
+参考→[[Git] GitHubにGPG鍵を登録し署名付きcommit/tagを行う](https://blog.katsubemakito.net/git/github-gpg)  
+(Linuxで行う場合は適宜読み替える必要あり)
