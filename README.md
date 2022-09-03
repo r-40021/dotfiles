@@ -31,6 +31,8 @@ sh deploy.sh
 `packages/pkglist.txt` にpacmanでインストールしたパッケージの一覧が記載されています。
 
 # 他にやっておいたほうが良いこと
+以下の設定は手動で行う必要があります。
+
 - Gitの各種設定
 ```bash
 git config --global user.name YOUR_NAME
