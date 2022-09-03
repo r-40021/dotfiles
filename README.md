@@ -26,6 +26,7 @@ sh deploy.sh
 - `~/.config/fontconfig/fonts.conf` の生成。Manjaro等では日本語UIフォントがきれいになります。(別途DE側での設定が必要な場合あり)
 - pacmanを使用したパッケージのインストール
 - デフォルトシェルをzshに変更
+- yayのインストール
 
 # パッケージ一覧
 `packages/pkglist.txt` にpacmanでインストールしたパッケージの一覧が記載されています。
