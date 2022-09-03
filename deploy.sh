@@ -28,3 +28,16 @@ for file in *.sh; do
     [[ ${file} = ".." ]] && continue
     ln -s ${PWD}/${file} ${HOME}
 done
+
+# パッケージインストール(Pacman)
+sudo pacman -S --needed - < ${dotfiles_root}/packages/pkglist.txt
+
+# デフォルトシェルをzshにする
+chsh -s $(which zsh)
+
+# yayのインストール
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd ${PWD}/yay
+makepkg -si
+rm -rf ${PWD}/yay
