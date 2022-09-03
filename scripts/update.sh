@@ -10,4 +10,5 @@ if [ $(git status --short | wc -l) -ne 0 ]; then
   git add .
   git commit -am "Update dotfiles"
   git push -u origin main
+  echo "Dotfiles pushed to GitHub"
 fi

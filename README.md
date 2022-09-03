@@ -19,7 +19,7 @@ sh deploy.sh
 - .bashrc
 - .gitconfig
 - .zshrc
-- update.sh (`yay` を用いてパッケージを更新する自作シェルスクリプト)
+- update.sh (yayを用いてパッケージを更新する自作シェルスクリプト)
 
 さらに、以下のことも行われます。
 
