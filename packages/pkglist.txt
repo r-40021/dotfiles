@@ -4,7 +4,6 @@ alsa-oss
 alsa-tools
 alsa-utils
 archlinux-keyring
-archlinux-wallpaper
 ark
 autoconf
 automake
