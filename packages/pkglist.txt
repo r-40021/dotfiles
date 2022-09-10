@@ -18,6 +18,7 @@ docker
 docker-compose
 dolphin
 efibootmgr
+evince
 fakeroot
 fcitx5
 fcitx5-configtool
@@ -34,6 +35,9 @@ gcc
 gettext
 gimp
 git
+gnome-boxes
+gnome-disk-utility
+gnome-keyring
 go
 grep
 grml-zsh-config
