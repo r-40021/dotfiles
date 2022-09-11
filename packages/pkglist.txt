@@ -26,8 +26,6 @@ fcitx5-gtk
 fcitx5-qt
 file
 findutils
-firefox-developer-edition
-firefox-developer-edition-i18n-ja
 firewalld
 flex
 gawk
