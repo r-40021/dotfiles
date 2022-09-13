@@ -89,6 +89,7 @@ vim
 vlc
 which
 wpa_supplicant
+xdg-user-dirs-gtk
 xdotool
 xed
 zsh
