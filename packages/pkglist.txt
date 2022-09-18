@@ -41,7 +41,6 @@ grep
 grml-zsh-config
 groff
 grub
-gtk4
 gwenview
 gzip
 intel-ucode
@@ -89,7 +88,6 @@ vim
 vlc
 which
 wpa_supplicant
-xdg-user-dirs-gtk
 xdotool
 xed
 zsh
