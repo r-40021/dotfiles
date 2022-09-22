@@ -29,6 +29,15 @@ for file in *.sh; do
     ln -s ${PWD}/${file} ${HOME}
 done
 
+# etc内
+cd ${dotfiles_root}/etc
+for file in *; do
+    # 除外
+    [[ ${file} = "." ]] && continue
+    [[ ${file} = ".." ]] && continue
+    sudo ln -s ${PWD}/${file} /etc
+done
+
 # パッケージインストール(Pacman)
 sudo pacman -S --needed - < ${dotfiles_root}/packages/pkglist.txt
 
