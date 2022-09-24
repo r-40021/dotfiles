@@ -1,7 +1,7 @@
 [user]
 	name = Frog
 	email = frog@frogapp.net
-	signingkey = 0A8DC3A51528DFA5
+	signingkey = 26EA9DF6750D9B6E02E5ACA8EFA7C2B4077D785B
 [init]
 	defaultBranch = main
 [commit]
