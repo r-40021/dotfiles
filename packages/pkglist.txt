@@ -36,6 +36,7 @@ gcc
 gettext
 gimp
 git
+gitkraken
 gnome-boxes
 gnome-disk-utility
 gnome-keyring
