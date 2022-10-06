@@ -60,6 +60,8 @@ libvirt
 linux
 linux-firmware
 linux-headers
+linux-zen
+linux-zen-headers
 lsd
 m4
 make
